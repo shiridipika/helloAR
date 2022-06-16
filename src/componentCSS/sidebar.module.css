@@ -1,0 +1,26 @@
+.list {
+    background-color: white;
+    margin: 0 0 20px 20px;
+    padding: 10px 0 10px 10px;
+}
+
+.list:hover {
+    background-color: #5FD068;
+}
+
+.sidebarSticky {
+    position: relative;
+    top: 0;
+    height: calc(100vh - 48px);
+    padding-top: .5rem;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+  }
+  
+.modalDiv {
+    margin: 0;
+}
+
+.modalBody {
+    padding: 16px 16px 16px 16px;
+}
